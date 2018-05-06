@@ -9,6 +9,19 @@
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 [![Build Status](https://travis-ci.org/tensorlayer/awesome-tensorlayer.svg?branch=master)](https://travis-ci.org/tensorlayer/awesome-tensorlayer)
 
+## How to cite TL in Research Papers ?
+If you find this project useful, we would be grateful if you cite the TensorLayer paper：
+
+```
+@article{tensorlayer2017,
+    author  = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
+    journal = {ACM Multimedia},
+    title   = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
+    url     = {http://tensorlayer.org},
+    year    = {2017}
+}
+```
+
 ## Contribute
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
@@ -23,6 +36,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Reinforcement Learning](#reinforcement-learning)
 - [Pretrained Models](#pretrained-models)
 - [Miscellaneous](#miscellaneous)
+- [Research papers using TensorLayer](#research-papers-using-tensorLayer)
 
 
 ### Tutorials
@@ -98,4 +112,7 @@ Examples can be found [in this folder](https://github.com/zsdonghao/tensorlayer/
 
 ### Miscellaneous
  - TensorDB by [fangde](https://github.com/fangde) see [here](https://github.com/akaraspt/tl_paper).
-- A simple web service - [TensorFlask](https://github.com/JoelKronander/TensorFlask) by [JoelKronander](https://github.com/JoelKronander).
+ - A simple web service - [TensorFlask](https://github.com/JoelKronander/TensorFlask) by [JoelKronander](https://github.com/JoelKronander).
+
+### Research papers using TensorLayer
+ - [MyPaper](http://www.example.com)
