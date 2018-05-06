@@ -36,8 +36,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Reinforcement Learning](#reinforcement-learning)
 - [Pretrained Models](#pretrained-models)
 - [Miscellaneous](#miscellaneous)
-- [Research papers using TensorLayer](#research-papers-using-tensorLayer)
-
+- [Research papers using TensorLayer](#research-papers-using-tensorlayer)
 
 ### Tutorials
 
@@ -115,4 +114,4 @@ Examples can be found [in this folder](https://github.com/zsdonghao/tensorlayer/
  - A simple web service - [TensorFlask](https://github.com/JoelKronander/TensorFlask) by [JoelKronander](https://github.com/JoelKronander).
 
 ### Research papers using TensorLayer
- - [MyPaper](http://www.example.com)
+ - [An example paper](http://www.example.com)
