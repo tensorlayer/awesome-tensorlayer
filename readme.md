@@ -40,7 +40,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### Tutorials
 
-Examples can be found [in this folder](https://github.com/zsdonghao/tensorlayer/tree/master/example) and [Github topic](https://github.com/search?q=topic%3Atensorlayer&type=Repositories).
+ - Examples can be found [in this folder](https://github.com/zsdonghao/tensorlayer/tree/master/example) and [Github topic](https://github.com/search?q=topic%3Atensorlayer&type=Repositories).
+ - [Tricks to use TL](https://github.com/wagamamaz/tensorlayer-tricks) is also a good introduction to use TensorLayer.
 
 ### Basics
  - Multi-layer perceptron (MNIST) - Classification task, see [tutorial\_mnist\_simple.py](https://github.com/zsdonghao/tensorlayer/blob/master/example/tutorial_mnist_simple.py).
