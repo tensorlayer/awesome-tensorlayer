@@ -128,7 +128,7 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
 - [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py) working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) - **more to come**.
+- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) using the Tensorlayer packaged class based on TF-Slim implementation working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
 ###### VGGNet19
@@ -154,14 +154,14 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
 - [MobileNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) - **more to come**.
+- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged class based on TF-Slim implementation for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
 
 ###### SqueezeNet
 
 - [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
-- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) - **more to come**.
+- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged class based on TF-Slim implementation - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
 
 ###### DoReFa
