@@ -291,4 +291,4 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
  - [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API for classifying MNIST digits from HTTP POST requests built using Flask and TensorFlow/Layer by [JoelKronander](https://github.com/JoelKronander).
 
 ## Research papers using TensorLayer
- - [An example paper](http://www.example.com)
+ - [An example research paper](#) by [A. Author et al, 2018]
