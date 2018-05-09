@@ -28,7 +28,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Contents
 
-- [Tutorials](#tutorials)
+- [Tutorials - Tips and Tricks](#tutorials---tips-and-tricks)
 - [Basics](#basics)
 - [Computer Vision](#computer-vision)
 - [Natural Language Processing](#natural-language-processing)
@@ -38,12 +38,9 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Miscellaneous](#miscellaneous)
 - [Research papers using TensorLayer](#research-papers-using-tensorlayer)
 
-## Tutorials
-<!--
-===================== 
+## Tutorials - Tips and Tricks
 
- - Examples can be found [in this folder](https://github.com/tensorlayer/tensorlayer/tree/master/example) and [Github topic](https://github.com/search?q=topic%3Atensorlayer&type=Repositories).
- - [Tricks to use TL](https://github.com/wagamamaz/tensorlayer-tricks) is also a good introduction to use TensorLayer. -->
+ - [Tricks to use TL](https://github.com/wagamamaz/tensorlayer-tricks) is a good introduction to start using TensorLayer.
 
 
 ## Basics
