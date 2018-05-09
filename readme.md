@@ -30,11 +30,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Tutorials](#tutorials)
 - [Basics](#basics)
-- [Data Manipulation](#data-manipulation)
 - [Computer Vision](#computer-vision)
-- [Adversarial Learning](#adversarial-learning)
 - [Natural Language Processing](#natural-language-processing)
 - [Reinforcement Learning](#reinforcement-learning)
+- [Adversarial Learning](#adversarial-learning)
 - [Pretrained Models](#pretrained-models)
 - [Miscellaneous](#miscellaneous)
 - [Research papers using TensorLayer](#research-papers-using-tensorlayer)
