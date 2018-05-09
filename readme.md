@@ -39,7 +39,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Miscellaneous](#miscellaneous)
 - [Research papers using TensorLayer](#research-papers-using-tensorlayer)
 
-### Tutorials
+## Tutorials
 <!--
 ===================== 
 
@@ -47,11 +47,13 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
  - [Tricks to use TL](https://github.com/wagamamaz/tensorlayer-tricks) is also a good introduction to use TensorLayer. -->
 
 
-### Basics
+## Basics
 
-#### Multi Layer Perceptron (MLP)
+#### Data Manipulation
 
-- [Simple MLP Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_simple.py) trained on MNIST dataset.
+###### Image Preprocessing
+
+- [Image Augmentation](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
 
 #### TF Records
 
@@ -68,6 +70,10 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 - [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cifar10.py) working on the dataset CIFAR10 using TensorLayer CIFAR10 data loader.
 
 - [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
+
+#### Multi Layer Perceptron (MLP)
+
+- [Simple MLP Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_simple.py) trained on MNIST dataset.
 
 #### Keras
 
@@ -87,13 +93,13 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
 #### Datasets
 
-##### MNIST
+###### MNIST
 
 - [Downloading and Loading MNIST](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist.py) using TensorLayer CIFAR10 data loader.
 
 - [Downloading and Loading MNIST using Docker in Swarm Mode](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_distributed.py) for distributed training.
  
-##### PASCAL VOC
+###### PASCAL VOC
 
 - [Downloading and Loading PASCAL VOC](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
 
@@ -113,32 +119,25 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
  - Float 16 half-precision model, see [tutorial\_mnist_float16.py](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_float16.py)
  - Distributed Training. [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_distributed.py) and [imagenet](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imagenet_inceptionV3_distributed.py) by [jorgemf](https://github.com/jorgemf). -->
 
-### Data Manipulation
 
-#### Image Preprocessing
-
-- [Image Augmentation](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
-
-
-
-### Computer Vision
+## Computer Vision
 
 #### State of the Art Networks
 
 
-##### VGGNet16
+###### VGGNet16
 
 - [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py) working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 - [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) - **more to come**.
 
 
-##### VGGNet19
+###### VGGNet19
 
 - [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg19.py) working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
-##### InceptionV3
+###### InceptionV3
 
 - [InceptionV3 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_inceptionV3_tfslim.py) working on the dataset ImageNet using the TF-Slim implementation based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
@@ -147,40 +146,40 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
 #### CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
-##### FP8 (float8) and FP16 (float16)
+###### FP8 (float8) and FP16 (float16)
 
 - [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_float16.py) on the MNIST dataset.
 
 
-##### MobileNet
+###### MobileNet
 
 - [MobileNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
 - [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) - **more to come**.
 
 
-##### SqueezeNet
+###### SqueezeNet
 
 - [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
 - [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) - **more to come**.
 
 
-##### DoReFa
+###### DoReFa
 
 - [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_dorefanet_mnist_cnn.py) working on the dataset MNIST based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
 
 - [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_dorefanet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
 
 
-##### Binary Networks
+###### Binary Networks
 
 - [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_binarynet_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
 
 - [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_binarynet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
 
-##### Ternary Networks
+###### Ternary Networks
 
 - [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ternaryweight_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
 
@@ -199,18 +198,7 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
  - Variational Autoencoder (VAE) for (MNIST) by [BUPTLdy](https://github.com/BUPTLdy/tl-vae).
  - Image Captioning - Reimplementation of Google's [im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt) by [zsdonghao](https://github.com/zsdonghao/Image-Captioning). -->
 
-
-### Adversarial Learning
-
-<!-- - DCGAN (CelebA). Generating images by [Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) by [zsdonghao](https://github.com/tensorlayer/dcgan).
-- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) by [zsdonghao](https://github.com/zsdonghao/text-to-image).
-- [Unsupervised Image to Image Translation with Generative Adversarial Networks](https://github.com/zsdonghao/Unsup-Im2Im) by [zsdonghao](https://github.com/zsdonghao/Unsup-Im2Im).
-- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution by [luoxier](https://github.com/luoxier/CycleGAN_Tensorlayer).
-- [Super Resolution GAN](https://arxiv.org/abs/1609.04802) by [zsdonghao](https://github.com/tensorlayer/SRGAN).
-- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717) by [2wins](https://github.com/2wins/BEGAN-tensorlayer).
-- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN) by [nebulaV](https://github.com/nebulaV/DAGAN). -->
-
-### Natural Language Processing
+## Natural Language Processing
 
 #### LSTM
 
@@ -222,11 +210,11 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
 #### Embedding Networks
 
-##### FastText
+###### FastText
 
 - [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
 
-##### Word2Vec
+###### Word2Vec
 
 - [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
@@ -244,7 +232,7 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
  - FastText Sentence Classification (IMDB), see [tutorial\_imdb\_fasttext.py](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imdb_fasttext.py) by [tomtung](https://github.com/tomtung). -->
 
 
-### Reinforcement Learning
+## Reinforcement Learning
 
 #### Actor Critic
 
@@ -272,7 +260,18 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
  - [TRPO](https://arxiv.org/abs/1502.05477) for continuous and discrete action space by [jjkke88](https://github.com/jjkke88/RL_toolbox).
  -->
 
-### Pretrained Models
+
+## Adversarial Learning
+
+<!-- - DCGAN (CelebA). Generating images by [Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) by [zsdonghao](https://github.com/tensorlayer/dcgan).
+- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) by [zsdonghao](https://github.com/zsdonghao/text-to-image).
+- [Unsupervised Image to Image Translation with Generative Adversarial Networks](https://github.com/zsdonghao/Unsup-Im2Im) by [zsdonghao](https://github.com/zsdonghao/Unsup-Im2Im).
+- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution by [luoxier](https://github.com/luoxier/CycleGAN_Tensorlayer).
+- [Super Resolution GAN](https://arxiv.org/abs/1609.04802) by [zsdonghao](https://github.com/tensorlayer/SRGAN).
+- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717) by [2wins](https://github.com/2wins/BEGAN-tensorlayer).
+- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN) by [nebulaV](https://github.com/nebulaV/DAGAN). -->
+
+## Pretrained Models
 
 <!-- 
  - VGG 16 (ImageNet). Classification task, see [tl.models.VGG16](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) or [tutorial_vgg16.py](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py).
@@ -285,11 +284,11 @@ https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord
 
  -->
 
-### Miscellaneous
+## Miscellaneous
 
  - [TensorDB](https://github.com/akaraspt/tl_paper) by [fangde](https://github.com/fangde) - **What is TensorDB? - Where is the code ?** 
 
  - [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API for classifying MNIST digits from HTTP POST requests built using Flask and TensorFlow/Layer by [JoelKronander](https://github.com/JoelKronander).
 
-### Research papers using TensorLayer
+## Research papers using TensorLayer
  - [An example paper](http://www.example.com)
