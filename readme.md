@@ -276,7 +276,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - TensorDB applied to classification task on MNIST dataset: [Master File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_master.py) and [Worker File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_worker.py).
 
-###### TensorFlask DB: TensorDB
+###### TensorFlask
 
 - [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API to process HTTP POST requests using Flask and TensorFlow/Layer.
 
