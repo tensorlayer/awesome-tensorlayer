@@ -181,7 +181,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### Spatial Transformer Networks
 
-- [Spatial-Transformer-Nets (STN)](https://github.com/auroua/InsightFace_TF) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
+- [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
 
 
 ###### Medical Applications
@@ -286,10 +286,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
 
 ###### Image to Image
-
-- [Im2Im Translation](https://github.com/zsdonghao/Unsup-Im2Im) based on the paper by [[H. Dong et al, 2017]](https://arxiv.org/abs/1701.02676)
-
-###### Image Denoising
 
 - [Im2Im Translation](https://github.com/zsdonghao/Unsup-Im2Im) based on the paper by [[H. Dong et al, 2017]](https://arxiv.org/abs/1701.02676)
 
