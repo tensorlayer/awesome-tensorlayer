@@ -53,8 +53,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 #### TF Records
 
-https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord.py
-
 - [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord.py).
 
 - [Read and Save time-series data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord3.py).
