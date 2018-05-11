@@ -225,7 +225,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 #### Q-Learning
 
-- [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_atari_pong.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
+- [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
 <!-- ===================== 
 
