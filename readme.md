@@ -268,16 +268,18 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
 
-- [Super Resolution GAN](https://github.com/tensorlayer/srgan) based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
+- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
 
-- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
+- [CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
 
-- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://github.com/2wins/BEGAN-tensorlayer) based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
-
-- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN) based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
+- [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
 
 ##### Applications
+
+###### Image Reconstruction
+
+- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
 
 ###### Text to Image
 
