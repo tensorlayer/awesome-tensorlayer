@@ -278,7 +278,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### TensorFlask DB: TensorDB
 
-- [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API for classifying MNIST digits from HTTP POST requests built using Flask and TensorFlow/Layer.
+- [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API to process HTTP POST requests using Flask and TensorFlow/Layer.
 
 
 ## Research papers using TensorLayer
