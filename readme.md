@@ -1,13 +1,13 @@
 # Awesome Tensorlayer - A curated list of dedicated resources
 
-<a href="http://tensorlayer.readthedocs.io">
+<a href="https://tensorlayer.readthedocs.io/en/stable/">
 <div align="center">
-	<img src="https://github.com/tensorlayer/tensorlayer/raw/master/img/tl_transparent_logo.png" width="50%" height="30%"/>
+	<img src="https://raw.githubusercontent.com/tensorlayer/tensorlayer/master/img/tl_transparent_logo.png" width="50%" height="30%"/>
 </div>
 </a>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Build Status](https://travis-ci.org/tensorlayer/awesome-tensorlayer.svg?branch=master)](https://travis-ci.org/tensorlayer/awesome-tensorlayer)
+[![Build Status](https://api.travis-ci.org/tensorlayer/awesome-tensorlayer.svg?branch=master)](https://travis-ci.org/tensorlayer/awesome-tensorlayer)
 
 ## How to cite TL in Research Papers ?
 If you find this project useful, we would be grateful if you cite the TensorLayer paper：
