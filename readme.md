@@ -33,10 +33,12 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Computer Vision](#computer-vision)
 - [Natural Language Processing](#natural-language-processing)
 - [Reinforcement Learning](#reinforcement-learning)
+- [Auto Encoders](#auto-encoders)
 - [Adversarial Learning](#adversarial-learning)
 - [Pretrained Models](#pretrained-models)
 - [Miscellaneous](#miscellaneous)
 - [Research papers using TensorLayer](#research-papers-using-tensorlayer)
+
 
 ## Tutorials - Tips and Tricks
 
@@ -122,6 +124,11 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [InceptionV3 Network - Distributed](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imagenet_inceptionV3_distributed.py) working on the dataset ImageNet based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
 
+###### Wide ResNet
+
+- [Wide ResNet](https://github.com/ritchieng/wideresnet-tensorlayer) based on the paper by [[S. Zagoruyko et al, 2016]](https://arxiv.org/abs/1605.07146).
+
+
 #### CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
 ###### FP8 (float8) and FP16 (float16)
@@ -163,23 +170,29 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ternaryweight_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
-<!-- ==========================
 
- - ArcFace: Additive Angular Margin Loss for Deep Face Recognition, see [InsignFace](https://github.com/auroua/InsightFace_TF).
+#### Computer Vision Applications
 
- - Wide ResNet (CIFAR) by [ritchieng](https://github.com/ritchieng/wideresnet-tensorlayer).
- 
- - [Spatial Transformer Networks](https://arxiv.org/abs/1506.02025) by [zsdonghao](https://github.com/zsdonghao/Spatial-Transformer-Nets).
 
- - [U-Net for brain tumor segmentation](https://github.com/zsdonghao/u-net-brain-tumor).
+###### Face Recognition
 
- - Variational Autoencoder (VAE) for (CelebA) by [yzwxx](https://github.com/yzwxx/vae-celebA).
+- [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
- - Variational Autoencoder (VAE) for (MNIST) by [BUPTLdy](https://github.com/BUPTLdy/tl-vae).
- 
- - Image Captioning - Reimplementation of Google's [im2txt](https://github.com/tensorflow/models/tree/master/research/im2txt) by [zsdonghao](https://github.com/zsdonghao/Image-Captioning). 
-  
- -->
+
+###### Spatial Transformer Networks
+
+- [Spatial-Transformer-Nets (STN)](https://github.com/auroua/InsightFace_TF) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
+
+
+###### Medical Applications
+
+- [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820).
+
+
+###### Image Captioning
+
+- [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
+
 
 ## Natural Language Processing
 
@@ -202,13 +215,17 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
 
-<!-- =====================
+#### NLP Applications
 
- - Chinese Text Anti-Spam by [pakrchen](https://github.com/pakrchen/text-antispam).
+###### Spam Detection
+
+- [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
+
+
+###### ChatBot
  
- - [Chatbot in 200 lines of code](https://github.com/tensorlayer/seq2seq-chatbot) for [Seq2Seq](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
- 
--->
+- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
+
 
 
 ## Reinforcement Learning
@@ -228,8 +245,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
 <!-- ===================== 
-
- - Asynchronous Policy Gradient using TensorDB (Atari Ping Pong) by [nebulaV](https://github.com/akaraspt/tl_paper).
  
  - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
  
@@ -238,33 +253,51 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
  -->
 
 
+## Auto Encoders
+
+#### Variational Autoencoder (VAE)
+
+- [Variational Autoencoder](https://github.com/yzwxx/vae-celebA) trained on the CelebA dataset.
+
+- [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
+
+
 ## Adversarial Learning
 
-<!-- 
-- DCGAN (CelebA). Generating images by [Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) by [zsdonghao](https://github.com/tensorlayer/dcgan).
+##### State of the art
 
-- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image).
+- [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
 
-- [Unsupervised Image to Image Translation with Generative Adversarial Networks](https://github.com/zsdonghao/Unsup-Im2Im).
+- [Super Resolution GAN](https://github.com/tensorlayer/srgan) based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
 
-- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution.
+- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
 
-- [Super Resolution GAN](https://arxiv.org/abs/1609.04802) by [zsdonghao](https://github.com/tensorlayer/SRGAN).
+- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://github.com/2wins/BEGAN-tensorlayer) based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
-- [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717) by [2wins](https://github.com/2wins/BEGAN-tensorlayer).
+- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN) based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
 
-- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN). 
--->
+
+##### Applications
+
+###### Text to Image
+
+- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
+
+###### Image to Image
+
+- [Im2Im Translation](https://github.com/zsdonghao/Unsup-Im2Im) based on the paper by [[H. Dong et al, 2017]](https://arxiv.org/abs/1701.02676)
+
+###### Image Denoising
+
+- [Im2Im Translation](https://github.com/zsdonghao/Unsup-Im2Im) based on the paper by [[H. Dong et al, 2017]](https://arxiv.org/abs/1701.02676)
+
 
 ## Pretrained Models
 
-<!-- 
+- All models implementations available using [TF-Slim](https://github.com/tensorflow/models/tree/master/research/slim) can be connected to TensorLayer via SlimNetsLayer.
 
- - More CNN implementations of [TF-Slim](https://github.com/tensorflow/models/tree/master/research/slim) can be connected to TensorLayer via SlimNetsLayer.
+- All pretrained models in [here](https://github.com/tensorlayer/pretrained-models).
 
- - All pretrained models in [here](https://github.com/tensorlayer/pretrained-models).
-
- -->
 
 ## Miscellaneous
 
