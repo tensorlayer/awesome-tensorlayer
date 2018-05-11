@@ -1,7 +1,10 @@
 language: ruby
 
 rvm:
-  - 2.4
+  - 2.4.1
+  
+notifications:
+  email: false
 
 before_script:
   - gem install awesome_bot

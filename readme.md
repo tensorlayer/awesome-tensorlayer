@@ -268,9 +268,19 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Miscellaneous
 
- - [TensorDB](https://github.com/akaraspt/tl_paper) by [fangde](https://github.com/fangde) - **What is TensorDB? - Where is the code ?** 
+###### TensorLayer DB: TensorDB
 
- - [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API for classifying MNIST digits from HTTP POST requests built using Flask and TensorFlow/Layer by [JoelKronander](https://github.com/JoelKronander).
+- [What is TensorDB](http://tensorlayer.readthedocs.io/en/latest/modules/db.html).
+
+- TensorDB applied on Pong Game on OpenAI Gym: [Trainer File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_trainer.py) and [Generator File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_generator.py) based on the following [blog post](http://karpathy.github.io/2016/05/31/rl/).
+
+- TensorDB applied to classification task on MNIST dataset: [Master File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_master.py) and [Worker File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_worker.py).
+
+###### TensorFlask DB: TensorDB
+
+- [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API for classifying MNIST digits from HTTP POST requests built using Flask and TensorFlow/Layer by [JoelKronander](https://github.com/JoelKronander).
+
 
 ## Research papers using TensorLayer
- - [An example research paper](#) by [A. Author et al, 2018]
+
+- [An example research paper](#) by [A. Author et al, 2018]
