@@ -7,5 +7,5 @@ before_script:
   - gem install awesome_bot
 
 script:
-  - awesome_bot readme.md --white-list creativecommons.org,example.com,tensorlayer.org,arxiv.org
+  - awesome_bot readme.md --white-list creativecommons.org,example.com,tensorlayer.org,arxiv.org/abs/
   # - awesome_bot README.md -t 5 --allow-timeout --allow-dupe --allow-redirect
