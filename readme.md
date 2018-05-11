@@ -171,7 +171,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
  
  - [Spatial Transformer Networks](https://arxiv.org/abs/1506.02025) by [zsdonghao](https://github.com/zsdonghao/Spatial-Transformer-Nets).
 
- - [U-Net for brain tumor segmentation](https://github.com/zsdonghao/u-net-brain-tumor) by [zsdonghao](https://github.com/zsdonghao/u-net-brain-tumor).
+ - [U-Net for brain tumor segmentation](https://github.com/zsdonghao/u-net-brain-tumor).
 
  - Variational Autoencoder (VAE) for (CelebA) by [yzwxx](https://github.com/yzwxx/vae-celebA).
 
@@ -243,17 +243,17 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 <!-- 
 - DCGAN (CelebA). Generating images by [Deep Convolutional Generative Adversarial Networks](https://arxiv.org/abs/1511.06434) by [zsdonghao](https://github.com/tensorlayer/dcgan).
 
-- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) by [zsdonghao](https://github.com/zsdonghao/text-to-image).
+- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image).
 
-- [Unsupervised Image to Image Translation with Generative Adversarial Networks](https://github.com/zsdonghao/Unsup-Im2Im) by [zsdonghao](https://github.com/zsdonghao/Unsup-Im2Im).
+- [Unsupervised Image to Image Translation with Generative Adversarial Networks](https://github.com/zsdonghao/Unsup-Im2Im).
 
-- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution by [luoxier](https://github.com/luoxier/CycleGAN_Tensorlayer).
+- [Improved CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) with resize-convolution.
 
 - [Super Resolution GAN](https://arxiv.org/abs/1609.04802) by [zsdonghao](https://github.com/tensorlayer/SRGAN).
 
 - [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717) by [2wins](https://github.com/2wins/BEGAN-tensorlayer).
 
-- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN) by [nebulaV](https://github.com/nebulaV/DAGAN). 
+- [DAGAN: Fast Compressed Sensing MRI Reconstruction](https://github.com/nebulaV/DAGAN). 
 -->
 
 ## Pretrained Models
