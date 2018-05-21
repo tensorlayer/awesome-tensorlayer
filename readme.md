@@ -111,14 +111,14 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### VGGNet16
 
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py) working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) using the Tensorlayer packaged class based on TF-Slim implementation working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) working on the dataset ImageNet using the TensorLayer's models API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
 ###### VGGNet19
 
-- [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg19.py) working on the dataset ImageNet using the TFSlim implementation based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg19.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
 ###### InceptionV3
@@ -142,16 +142,16 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### MobileNet
 
-- [MobileNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged class based on TF-Slim implementation for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged model for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
 
 ###### SqueezeNet
 
 - [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
-- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged class based on TF-Slim implementation - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
+- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged model - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
 
 ###### DoReFa
@@ -190,7 +190,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### Medical Applications
 
-- [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820).
+- [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
 
 
 ###### Image Captioning
