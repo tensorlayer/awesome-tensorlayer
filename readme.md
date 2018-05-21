@@ -53,7 +53,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Image Augmentation using Python](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
 
 #### TF Records
@@ -100,7 +100,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### PASCAL VOC
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
 ###### More [here](http://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
