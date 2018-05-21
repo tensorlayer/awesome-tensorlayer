@@ -51,7 +51,10 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### Image Preprocessing
 
-- [Image Augmentation](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
+- [Image Augmentation using Python](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
+
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
+
 
 #### TF Records
 
@@ -94,11 +97,12 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Downloading and Loading MNIST](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist.py) using TensorLayer CIFAR10 data loader.
 
 - [Downloading and Loading MNIST using Docker in Swarm Mode](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_distributed.py) for distributed training.
- 
+
 ###### PASCAL VOC
 
-- [Downloading and Loading PASCAL VOC with TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) using TensorLayer VOC data loader.
 
+###### More [here](http://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
 ## Computer Vision
 
