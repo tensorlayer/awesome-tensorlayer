@@ -175,6 +175,13 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ternaryweight_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
 
+###### Quantization For Efficient Integer-Arithmetic-Only Inference:
+
+- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/example/tutorial_quanconv_mnist.py) working on the dataset MNIST using Tensorlayer MNIST data loader.
+
+- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/example/tutorial_quanconv_cifar10.py) working on the dataset CIFAR10 using Tensorlayer CIFAR10 data loader.
+
+
 #### Computer Vision Applications
 
 
