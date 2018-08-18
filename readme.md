@@ -102,7 +102,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
-###### More [here](http://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
+###### More [here](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
 ## Computer Vision
 
@@ -235,7 +235,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### ChatBot
  
-- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](http://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
+- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
 
 
 
@@ -304,7 +304,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### TensorLayer DB: TensorDB
 
-- [What is TensorDB](http://tensorlayer.readthedocs.io/en/latest/modules/db.html).
+- [What is TensorDB](https://tensorlayer.readthedocs.io/en/latest/modules/db.html).
 
 - TensorDB applied on Pong Game on OpenAI Gym: [Trainer File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_trainer.py) and [Generator File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_generator.py) based on the following [blog post](http://karpathy.github.io/2016/05/31/rl/).
 

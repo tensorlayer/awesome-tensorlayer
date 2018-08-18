@@ -14,5 +14,5 @@ before_script:
   - gem install awesome_bot
 
 script:
-  - awesome_bot readme.md --white-list doi.org,creativecommons.org,tensorlayer.org,arxiv.org/abs/,github.com/tensorlayer/tensorlayer/blob/master/example/,karpathy.github.io/2015/05/21/rnn-effectiveness/,karpathy.github.io/2016/05/31/rl/
+  - awesome_bot readme.md --white-list doi.org,creativecommons.org,tensorlayer.org,tensorlayer.readthedocs.io,arxiv.org/abs/,github.com/tensorlayer/tensorlayer/blob/master/example/,karpathy.github.io/2015/05/21/rnn-effectiveness/,karpathy.github.io/2016/05/31/rl/
   # - awesome_bot README.md -t 5 --allow-timeout --allow-dupe --allow-redirect
