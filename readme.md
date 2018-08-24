@@ -185,6 +185,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 #### Computer Vision Applications
 
 
+- Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/tensorlayer/tree/master/example/adaptive_style_transfer)
+
 ###### Face Recognition
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
