@@ -210,6 +210,8 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
 
+###### More in Adversarial Learning
+
 
 ## Natural Language Processing
 
