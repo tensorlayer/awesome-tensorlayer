@@ -255,7 +255,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
 
-#### REINFORCE
+#### Policy Network
 
 - [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
 
@@ -263,6 +263,13 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
+#### Imitation Learning
+
+ - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
+
+#### Toolbox
+ 
+ - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains trpo, a3c algorithm for continous action space by [jjkke88](https://github.com/jjkke88).
 
 ## Auto Encoders
 
