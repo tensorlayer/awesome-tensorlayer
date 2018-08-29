@@ -51,56 +51,56 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### Image Preprocessing
 
-- [Image Augmentation using Python](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
+- [Image Augmentation using Python](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
 
 #### TF Records
 
-- [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord.py).
+- [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord.py).
 
-- [Read and Save time-series data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord3.py).
+- [Read and Save time-series data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord3.py).
 
-- [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfrecord2.py).
+- [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
 
 #### Loading Data
 
-- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cifar10.py) working on the dataset CIFAR10 using TensorLayer CIFAR10 data loader.
+- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_placeholder.py) working on the dataset CIFAR10 using TensorLayer CIFAR10 data loader.
 
-- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
+- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
 #### Multi Layer Perceptron (MLP)
 
-- [Simple MLP Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_simple.py) trained on MNIST dataset.
+- [Simple MLP Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_simple.py) trained on MNIST dataset.
 
 #### Keras
 
-- [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_keras.py).
+- [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
 
 #### TF-Slim
 
-- [Using TF-Slim Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tfslim.py).
+- [Using TF-Slim Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
 
-- [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
+- [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
 #### Dropout
 
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mlp_dropout1.py) - Method 1 using *tl.layers.DropoutLayer* and *network.all_drop*.
+- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout1.py) - Method 1 using *tl.layers.DropoutLayer* and *network.all_drop*.
 
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mlp_dropout2.py) - Method 2 using *tl.layers.DropoutLayer* and *is_train*.
+- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *tl.layers.DropoutLayer* and *is_train*.
 
 #### Datasets
 
 ###### MNIST
 
-- [Downloading and Loading MNIST](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist.py) using TensorLayer CIFAR10 data loader.
+- [Downloading and Loading MNIST](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist.py) using TensorLayer CIFAR10 data loader.
 
-- [Downloading and Loading MNIST using Docker in Swarm Mode](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_distributed.py) for distributed training.
+- [Downloading and Loading MNIST using Docker in Swarm Mode](https://github.com/tensorlayer/tensorlayer/blob/master/examples/distributed_training/tutorial_mnist_distributed.py) for distributed training.
 
 ###### PASCAL VOC
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
 ###### More [here](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
@@ -111,21 +111,21 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### VGGNet16
 
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg16.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_vgg16.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_vgg16.py) working on the dataset ImageNet using the TensorLayer's models API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_vgg16.py) working on the dataset ImageNet using the TensorLayer's models API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
 ###### VGGNet19
 
-- [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_vgg19.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
+- [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_vgg19.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
 
 
 ###### InceptionV3
 
-- [InceptionV3 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_inceptionV3_tfslim.py) working on the dataset ImageNet using the TF-Slim implementation based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
+- [InceptionV3 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) working on the dataset ImageNet using the TF-Slim implementation based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
-- [InceptionV3 Network - Distributed](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imagenet_inceptionV3_distributed.py) working on the dataset ImageNet based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
+- [InceptionV3 Network - Distributed](https://github.com/tensorlayer/tensorlayer/blob/master/examples/deprecated_tutorials/tutorial_imagenet_inceptionV3_distributed.py) working on the dataset ImageNet based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
 
 ###### Wide ResNet
@@ -137,49 +137,49 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ###### FP8 (float8) and FP16 (float16)
 
-- [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mnist_float16.py) on the MNIST dataset.
+- [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_float16.py) on the MNIST dataset.
 
 
 ###### MobileNet
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged model for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged model for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
 
 
 ###### SqueezeNet
 
-- [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
+- [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
-- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged model - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
+- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged model - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
 
 
 ###### DoReFa
 
-- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_dorefanet_mnist_cnn.py) working on the dataset MNIST based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
+- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) working on the dataset MNIST based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
 
-- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_dorefanet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
+- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
 
 
 ###### Binary Networks
 
-- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_binarynet_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
+- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
 
-- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_binarynet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
+- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
 
 ###### Ternary Networks
 
-- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ternaryweight_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
+- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
 
-- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ternaryweight_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
+- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
 
 
 ###### Quantization For Efficient Integer-Arithmetic-Only Inference:
 
-- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/example/tutorial_quanconv_mnist.py) working on the dataset MNIST using Tensorlayer MNIST data loader.
+- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) working on the dataset MNIST using Tensorlayer MNIST data loader.
 
-- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/example/tutorial_quanconv_cifar10.py) working on the dataset CIFAR10 using Tensorlayer CIFAR10 data loader.
+- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py) working on the dataset CIFAR10 using Tensorlayer CIFAR10 data loader.
 
 
 #### Computer Vision Applications
@@ -217,21 +217,21 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 #### LSTM
 
-- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_generate_text.py).
+- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generationtutorial_generate_text.py).
 
-- [Predicting the next word with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ptb_lstm.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+- [Predicting the next word with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
-- [Predicting the next word with Tuple State LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_ptb_lstm_state_is_tuple.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+- [Predicting the next word with Tuple State LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
 #### Embedding Networks
 
 ###### FastText
 
-- [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
+- [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
 
 ###### Word2Vec
 
-- [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
+- [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
 
 #### NLP Applications
@@ -251,17 +251,17 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 #### Actor Critic
 
-- [Asynchronous Advantage Actor Critic (A3C)](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_bipedalwalker_a3c_continuous_action.py) with Continuous Action Space based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-3-A3C/).
+- [Asynchronous Advantage Actor Critic (A3C)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_bipedalwalker_a3c_continuous_action.py) with Continuous Action Space based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-3-A3C/).
 
-- [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
+- [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
 
 #### Policy Network
 
-- [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
+- [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
 
 #### Q-Learning
 
-- [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/example/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
+- [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
 #### Imitation Learning
 
