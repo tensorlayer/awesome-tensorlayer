@@ -8,18 +8,6 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
-## How to cite TL in Research Papers ?
-If you find this project useful, we would be grateful if you cite the TensorLayer paper：
-
-```
-@article{tensorlayer2017,
-    author  = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
-    journal = {ACM Multimedia},
-    title   = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
-    url     = {http://tensorlayer.org},
-    year    = {2017}
-}
-```
 
 ## Contribute
 
@@ -327,6 +315,19 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ###### TensorFlask
 
 - [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API to process HTTP POST requests using Flask and TensorFlow/Layer.
+
+## How to cite TL in Research Papers ?
+If you find this project useful, we would be grateful if you cite the TensorLayer paper：
+
+```
+@article{tensorlayer2017,
+    author  = {Dong, Hao and Supratak, Akara and Mai, Luo and Liu, Fangde and Oehmichen, Axel and Yu, Simiao and Guo, Yike},
+    journal = {ACM Multimedia},
+    title   = {{TensorLayer: A Versatile Library for Efficient Deep Learning Development}},
+    url     = {http://tensorlayer.org},
+    year    = {2017}
+}
+```
 
 
 ## Research papers using TensorLayer
