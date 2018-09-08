@@ -8,6 +8,7 @@
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
 
+You have just found TensorLayer! High performance DL and RL library for industry and academic.
 
 ## Contribute
 
@@ -29,10 +30,23 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Tutorials - Tips and Tricks
 
- - [Tricks to use TL](https://github.com/wagamamaz/tensorlayer-tricks) is a good introduction to start using TensorLayer.
+ - [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) is a third party repository to collect tricks to use TensorLayer better.
 
+## Basics Examples
 
-## Basics
+Get start with TensorLayer.
+
+#### MNIST - Hello World
+
+Training MNIST with Dropout is the **Hello World** in deep learning.
+
+- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout1.py) - Method 1 using *DropoutLayer* and *network.all_drop* to switch training and testing.
+
+- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *DropoutLayer* and *is_train* to switch training and testing.
+
+#### CIFAR10 - Data Augmentation 
+
+In deep learning, data augmentation is a key fator 
 
 #### Data Manipulation
 
@@ -71,54 +85,56 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
-#### Dropout
 
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout1.py) - Method 1 using *tl.layers.DropoutLayer* and *network.all_drop*.
-
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *tl.layers.DropoutLayer* and *is_train*.
 
 #### Datasets
 
-###### MNIST
+###### Process PASCAL VOC
 
-- [Downloading and Loading MNIST](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist.py) using TensorLayer CIFAR10 data loader.
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
-- [Downloading and Loading MNIST using Docker in Swarm Mode](https://github.com/tensorlayer/tensorlayer/blob/master/examples/distributed_training/tutorial_mnist_distributed.py) for distributed training.
-
-###### PASCAL VOC
-
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
 
 ###### More [here](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
 ## Computer Vision
 
-#### State of the Art Networks
+
+#### Computer Vision Applications
+
+###### Style Transfer
+- Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/adaptive-style-transfer)
+
+###### Pose Estimation
+- OpenPose: Real-time multi-person keypoint detection library, see [here](https://github.com/tensorlayer/openpose)
+
+###### Face Recognition
+
+- [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
+
+###### Spatial Transformer Networks
+
+- [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
+
+###### Text-to-Image Synthesis
+
+- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) on bird and flower dataset.
+
+###### Improved CycleGAN
+
+- [Improved CycleGAN using Resize-Convolution](https://github.com/luoxier/CycleGAN_Tensorlayer).
+
+###### Medical Applications
+
+- [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
+
+###### Image Captioning
+
+- [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
+
+###### More Computer Vision Application can be found in Adversarial Learning
 
 
-###### VGGNet16
-
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_vgg16.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
-
-- [VGGNet16 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_vgg16.py) working on the dataset ImageNet using the TensorLayer's models API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
-
-
-###### VGGNet19
-
-- [VGGNet19 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_vgg19.py) working on the dataset ImageNet using the TensorLayer's layers API based on the paper by [[K. Simonyan et al, 2014]](https://arxiv.org/abs/1409.1556).
-
-
-###### InceptionV3
-
-- [InceptionV3 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) working on the dataset ImageNet using the TF-Slim implementation based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
-
-- [InceptionV3 Network - Distributed](https://github.com/tensorlayer/tensorlayer/blob/master/examples/deprecated_tutorials/tutorial_imagenet_inceptionV3_distributed.py) working on the dataset ImageNet based on the paper by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
-
-
-###### Wide ResNet
-
-- [Wide ResNet](https://github.com/ritchieng/wideresnet-tensorlayer) based on the paper by [[S. Zagoruyko et al, 2016]](https://arxiv.org/abs/1605.07146).
-
+#### Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
 
 #### CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
@@ -126,89 +142,23 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_float16.py) on the MNIST dataset.
 
+###### Quantizat Networks
 
-###### MobileNet
+See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_mobilenet.py) for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [Binary Networks](https://arxiv.org/abs/1602.02830) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_mnist_cnn.py) and  [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_cifar10_tfrecord.py).
 
-- [MobileNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_mobilenetv1.py) using the Tensorlayer packaged model for mobile vision applications using the dataset ImageNet based on the paper by [[A. G. Howard et al, 2017]](https://arxiv.org/abs/1704.04861).
+- [Ternary Network](https://arxiv.org/abs/1605.04711) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py). 
 
+- [DoReFa-Net](https://arxiv.org/abs/1606.06160) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py).
 
-###### SqueezeNet
-
-- [SqueezeNet Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_squeezenet.py) - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
-
-- [SqueezeNetV1 Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_models_squeezenetv1.py) using the Tensorlayer packaged model - a fast and very small (< 0.5MB) network with AlexNet performances using the dataset ImageNet based on the paper by [[F. N. Iandola et al, 2016]](https://arxiv.org/abs/1602.07360).
-
-
-###### DoReFa
-
-- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) working on the dataset MNIST based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
-
-- [Convolutional Network with DoReFa compression](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords based on the paper by [[S. Zhou et al, 2016]](https://arxiv.org/abs/1606.06160).
-
-
-###### Binary Networks
-
-- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
-
-- [Binary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
-
-
-###### Ternary Networks
-
-- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) working on the dataset MNIST using TensorLayer MNIST data loader.
-
-- [Ternary Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
-
-
-###### Quantization For Efficient Integer-Arithmetic-Only Inference:
-
-- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) working on the dataset MNIST using Tensorlayer MNIST data loader.
-
-- [Convolutional Network with google quantization scheme](https://github.com/XJTUI-AIR-FALCON/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py) working on the dataset CIFAR10 using Tensorlayer CIFAR10 data loader.
-
-
-#### Computer Vision Applications
-
-
-###### Arbitrary Style Transfer
-- Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/adaptive-style-transfer)
-
-###### OpenPose in TensorFlow
-- OpenPose: Real-time multi-person keypoint detection library, see [here](https://github.com/tensorlayer/openpose)
-
-###### Face Recognition
-
-- [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
-
-
-###### Spatial Transformer Networks
-
-- [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
-
-
-###### Medical Applications
-
-- [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
-
-
-###### Image Captioning
-
-- [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
-
-###### More in Adversarial Learning
-
+- [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
 ## Natural Language Processing
 
-#### LSTM
+- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
 
-- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generationtutorial_generate_text.py).
-
-- [Predicting the next word with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
-
-- [Predicting the next word with Tuple State LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py) on the PTB dataset based on the following [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+- Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
 #### Embedding Networks
 
