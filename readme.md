@@ -7,7 +7,6 @@
 </a>
 
 [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
-[![Build Status](https://api.travis-ci.org/tensorlayer/awesome-tensorlayer.svg?branch=master)](https://travis-ci.org/tensorlayer/awesome-tensorlayer)
 
 ## How to cite TL in Research Papers ?
 If you find this project useful, we would be grateful if you cite the TensorLayer paper：
@@ -37,7 +36,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [Adversarial Learning](#adversarial-learning)
 - [Pretrained Models](#pretrained-models)
 - [Miscellaneous](#miscellaneous)
-- [Research papers using TensorLayer](#research-papers-using-tensorlayer)
+- [Research Papers using TensorLayer](#research-papers-using-tensorlayer)
 
 
 ## Tutorials - Tips and Tricks
