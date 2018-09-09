@@ -104,7 +104,7 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
 
-- More Computer Vision Application can be found in Adversarial Learning Section
+- More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
 ### 2.2 Pretrained Image Classification Models 
 
