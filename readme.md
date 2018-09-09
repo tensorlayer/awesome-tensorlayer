@@ -17,15 +17,14 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ## Contents
 
 - [Tutorials - Tips and Tricks](#tutorials---tips-and-tricks)
-- [1. Basics Examples](#basics)
-- [2. Computer Vision](#2.-computer-vision)
-- [3. Natural Language Processing](#natural-language-processing)
-- [4. Reinforcement Learning](#reinforcement-learning)
-- [5. Adversarial Learning](#adversarial-learning)
-- [6. Pretrained Models](#pretrained-models)
-- [7. Auto Encoders](#auto-encoders)
-- [Data and Model Managment Tools](#data-and-model-managment-tools)
-
+- [1. Basics Examples](#1-basics-examples)
+- [2. Computer Vision](#2-computer-vision)
+- [3. Natural Language Processing](#3-natural-language-processing)
+- [4. Reinforcement Learning](#4-reinforcement-learning)
+- [5. Adversarial Learning](#5-adversarial-learning)
+- [6. Pretrained Models](#6-pretrained-models)
+- [7. Auto Encoders](#7-auto-encoders)
+- [8. Data and Model Managment Tools](#8-data-and-model-managment-tools)
 
 ## Tutorials - Tips and Tricks
 
@@ -45,18 +44,25 @@ Training MNIST with Dropout is the **Hello World** in deep learning.
 
 #### 1.2 CIFAR10 - Data Augmentation 
 
-In deep learning, data augmentation is a key fator 
+In deep learning, data augmentation is a key fator to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
 
-#### Data Manipulation
+- [Placeholder - Slow](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_placeholder.py).
 
-###### Image Preprocessing
+- [TFRecord - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_tfrecord.py).
 
-- [Image Augmentation using Python](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_image_preprocess.py) randomly augment images with flipped or cropped images.
+- [TF DatasetAPI - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_datasetapi.py).
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader.
+#### 1.3 Connect with other TF wrappers
 
+- [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
 
-#### TF Records
+- [Using TF-Slim Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
+
+- [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
+
+#### 1.4 More Datasets and TFRecord Examples
+
+- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
 - [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord.py).
 
@@ -64,36 +70,7 @@ In deep learning, data augmentation is a key fator
 
 - [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
 
-#### Loading Data
-
-- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_placeholder.py) working on the dataset CIFAR10 using TensorLayer CIFAR10 data loader.
-
-- [Convolutional Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_tfrecord.py) working on the dataset CIFAR10 using TFRecords.
-
-#### Multi Layer Perceptron (MLP)
-
-- [Simple MLP Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_simple.py) trained on MNIST dataset.
-
-#### Keras
-
-- [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
-
-#### TF-Slim
-
-- [Using TF-Slim Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
-
-- [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
-
-
-
-#### Datasets
-
-###### Process PASCAL VOC
-
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
-
-
-###### More [here](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
+- More dataset loader can be found in [tl.files.load_xxx](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
 ## 2. Computer Vision
 
@@ -123,9 +100,9 @@ In deep learning, data augmentation is a key fator
 
 - More Computer Vision Application can be found in Adversarial Learning Section
 
-#### Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
+#### 2.2 Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
 
-#### CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
+#### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
 ###### FP8 (float8) and FP16 (float16)
 
@@ -143,57 +120,57 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
-## Natural Language Processing
+## 3. Natural Language Processing
 
-#### ChatBot
+#### 3.1 ChatBot
  
 - [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
 
-#### Text Generation
+#### 3.2 Text Generation
 
 - [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
 
 - Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
-#### FastText
+#### 3.3 Text Classification
 
 - [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
 
-#### Word2Vec
+#### 3.4 Word Embedding
 
 - [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
-#### Spam Detection
+#### 3.5 Spam Detection
 
 - [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
 
 
-## Reinforcement Learning
+## 4. Reinforcement Learning
 
-#### Actor Critic
+#### 4.1 Actor Critic
 
 - [Asynchronous Advantage Actor Critic (A3C)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_bipedalwalker_a3c_continuous_action.py) with Continuous Action Space based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-3-A3C/).
 
 - [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
 
-#### Policy Network
+#### 4.2 Policy Network
 
 - [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
 
-#### Q-Learning
+#### 4.3 Q-Learning
 
 - [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
-#### Imitation Learning
+#### 4.4 Imitation Learning
 
  - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
 
-#### RL Toolbox
+#### 4.5 RL Toolbox
  
  - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains TRPO, A3C for ontinous action space by [jjkke88](https://github.com/jjkke88).
 
 
-## Adversarial Learning
+## 5. Adversarial Learning
 
 - [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
 
@@ -209,12 +186,12 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
-## Pretrained Models
+## 6. Pretrained Models
 
 - All pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
 - [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples.
 
-## Auto Encoders
+## 7. Auto Encoders
 
 #### Variational Autoencoder (VAE)
 
@@ -223,7 +200,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
 
 
-## Data and Model Managment Tools
+## 8. Data and Model Managment Tools
 
 - [Why Database?](https://tensorlayer.readthedocs.io/en/stable/modules/db.html).
 
