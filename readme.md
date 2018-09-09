@@ -56,7 +56,7 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 Our distributed training is powered by [Uber Horovod](https://github.com/uber/horovod), to the best of our knowledge, it is the best solution for TensorFlow.
 
-- Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily.
+- Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily. Note that, due to the small data size, using more GPUs could not have performance gain, these examples just show you how to use the API.
 
 ### 1.4 More DatasetAPI and TFRecord Examples
 
