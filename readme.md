@@ -17,26 +17,25 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 ## Contents
 
 - [Tutorials - Tips and Tricks](#tutorials---tips-and-tricks)
-- [Basics](#basics)
-- [Computer Vision](#computer-vision)
-- [Natural Language Processing](#natural-language-processing)
-- [Reinforcement Learning](#reinforcement-learning)
-- [Auto Encoders](#auto-encoders)
-- [Adversarial Learning](#adversarial-learning)
-- [Pretrained Models](#pretrained-models)
-- [Miscellaneous](#miscellaneous)
-- [Research Papers using TensorLayer](#research-papers-using-tensorlayer)
+- [1. Basics Examples](#basics)
+- [2. Computer Vision](#computer-vision)
+- [3. Natural Language Processing](#natural-language-processing)
+- [4. Reinforcement Learning](#reinforcement-learning)
+- [5. Adversarial Learning](#adversarial-learning)
+- [6. Pretrained Models](#pretrained-models)
+- [7. Auto Encoders](#auto-encoders)
+- [Data and Model Managment Tools](#data-and-model-managment-tools)
 
 
 ## Tutorials - Tips and Tricks
 
  - [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) is a third party repository to collect tricks to use TensorLayer better.
 
-## Basics Examples
+## 1. Basics Examples
 
 Get start with TensorLayer.
 
-#### MNIST - Hello World
+#### 1.1 MNIST - Hello World
 
 Training MNIST with Dropout is the **Hello World** in deep learning.
 
@@ -44,7 +43,7 @@ Training MNIST with Dropout is the **Hello World** in deep learning.
 
 - [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *DropoutLayer* and *is_train* to switch training and testing.
 
-#### CIFAR10 - Data Augmentation 
+#### 1.2 CIFAR10 - Data Augmentation 
 
 In deep learning, data augmentation is a key fator 
 
@@ -96,9 +95,9 @@ In deep learning, data augmentation is a key fator
 
 ###### More [here](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
-## Computer Vision
+## 2. Computer Vision
 
-#### Computer Vision Applications
+#### 2.1 Computer Vision Applications
 
 - Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/adaptive-style-transfer)
 
@@ -210,6 +209,10 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
+## Pretrained Models
+
+- All pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
+- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples.
 
 ## Auto Encoders
 
@@ -219,11 +222,6 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
 
-
-## Pretrained Models
-
-- All pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
-- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples.
 
 ## Data and Model Managment Tools
 
