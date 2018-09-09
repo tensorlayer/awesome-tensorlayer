@@ -98,41 +98,31 @@ In deep learning, data augmentation is a key fator
 
 ## Computer Vision
 
-
 #### Computer Vision Applications
 
-###### Style Transfer
 - Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/adaptive-style-transfer)
 
-###### Pose Estimation
 - OpenPose: Real-time multi-person keypoint detection library, see [here](https://github.com/tensorlayer/openpose)
-
-###### Face Recognition
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
-###### Spatial Transformer Networks
-
 - [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
-
-###### Text-to-Image Synthesis
 
 - [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) on bird and flower dataset.
 
-###### Improved CycleGAN
-
 - [Improved CycleGAN using Resize-Convolution](https://github.com/luoxier/CycleGAN_Tensorlayer).
-
-###### Medical Applications
 
 - [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
 
-###### Image Captioning
-
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
 
-###### More Computer Vision Application can be found in Adversarial Learning
+- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
 
+- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
+
+- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
+
+- More Computer Vision Application can be found in Adversarial Learning Section
 
 #### Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
 
@@ -142,7 +132,7 @@ In deep learning, data augmentation is a key fator
 
 - [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_float16.py) on the MNIST dataset.
 
-###### Quantizat Networks
+###### Quantization Networks
 
 See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
 
@@ -156,32 +146,27 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## Natural Language Processing
 
+#### ChatBot
+ 
+- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
+
+#### Text Generation
+
 - [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
 
 - Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
-#### Embedding Networks
-
-###### FastText
+#### FastText
 
 - [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
 
-###### Word2Vec
+#### Word2Vec
 
 - [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
-
-#### NLP Applications
-
-###### Spam Detection
+#### Spam Detection
 
 - [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
-
-
-###### ChatBot
- 
-- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
-
 
 
 ## Reinforcement Learning
@@ -204,9 +189,27 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
  - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
 
-#### Toolbox
+#### RL Toolbox
  
- - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains trpo, a3c algorithm for continous action space by [jjkke88](https://github.com/jjkke88).
+ - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains TRPO, A3C for ontinous action space by [jjkke88](https://github.com/jjkke88).
+
+
+## Adversarial Learning
+
+- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
+
+- [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
+
+- [CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
+
+- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
+
+- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
+
+- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
+
+- [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
+
 
 ## Auto Encoders
 
@@ -217,54 +220,21 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
 
 
-## Adversarial Learning
-
-##### State of the art
-
-- [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
-
-- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
-
-- [CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
-
-- [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
-
-
-##### Applications
-
-###### Image Reconstruction
-
-- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
-
-###### Text to Image
-
-- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
-
-###### Image to Image
-
-- [Im2Im Translation](https://github.com/zsdonghao/Unsup-Im2Im) based on the paper by [[H. Dong et al, 2017]](https://arxiv.org/abs/1701.02676)
-
-
 ## Pretrained Models
 
-- All models implementations available using [TF-Slim](https://github.com/tensorflow/models/tree/master/research/slim) can be connected to TensorLayer via SlimNetsLayer.
+- All pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
+- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples.
 
-- All pretrained models in [here](https://github.com/tensorlayer/pretrained-models).
+## Data and Model Managment Tools
 
+- [Why Database?](https://tensorlayer.readthedocs.io/en/stable/modules/db.html).
 
-## Miscellaneous
-
-###### TensorLayer DB: TensorDB
-
-- [What is TensorDB](https://tensorlayer.readthedocs.io/en/latest/modules/db.html).
+- Put Tasks into Database and Execute on Other Agents, see [code](https://github.com/tensorlayer/tensorlayer/tree/master/examples/database).
 
 - TensorDB applied on Pong Game on OpenAI Gym: [Trainer File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_trainer.py) and [Generator File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_generator.py) based on the following [blog post](http://karpathy.github.io/2016/05/31/rl/).
 
 - TensorDB applied to classification task on MNIST dataset: [Master File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_master.py) and [Worker File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_worker.py).
 
-###### TensorFlask
-
-- [TensorFlask](https://github.com/JoelKronander/TensorFlask) - a simple webservice API to process HTTP POST requests using Flask and TensorFlow/Layer.
 
 ## How to cite TL in Research Papers ?
 If you find this project useful, we would be grateful if you cite the TensorLayer paper：
@@ -280,6 +250,3 @@ If you find this project useful, we would be grateful if you cite the TensorLaye
 ```
 
 
-## Research papers using TensorLayer
-
-- [An example research paper](#) by [A. Author et al, 2018]
