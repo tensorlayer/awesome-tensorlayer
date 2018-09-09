@@ -122,6 +122,8 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
+#### Our TensorRT Toolbox for production is coming soon
+
 ## 3. Natural Language Processing
 
 ### 3.1 ChatBot
