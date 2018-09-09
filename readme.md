@@ -58,9 +58,9 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily.
 
-### 1.4 More Datasets and TFRecord Examples
+### 1.4 More DatasetAPI and TFRecord Examples
 
-- [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
+- [Downloading and Preprocessing PASCAL VOC](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
 - [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord.py).
 
