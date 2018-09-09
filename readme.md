@@ -60,7 +60,13 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
-### 1.4 More Datasets and TFRecord Examples
+### 1.4 Distributed Training
+
+Our distributed training is powered by [Uber Horovod](https://github.com/uber/horovod), to the best of our knowledge, it is the best solution for TensorFlow.
+
+- Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily.
+
+### 1.5 More Datasets and TFRecord Examples
 
 - [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
