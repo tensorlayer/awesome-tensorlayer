@@ -18,7 +18,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 - [Tutorials - Tips and Tricks](#tutorials---tips-and-tricks)
 - [1. Basics Examples](#basics)
-- [2. Computer Vision](#computer-vision)
+- [2. Computer Vision](#2.-computer-vision)
 - [3. Natural Language Processing](#natural-language-processing)
 - [4. Reinforcement Learning](#reinforcement-learning)
 - [5. Adversarial Learning](#adversarial-learning)
