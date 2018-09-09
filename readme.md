@@ -34,7 +34,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 Get start with TensorLayer.
 
-#### 1.1 MNIST - Hello World
+### 1.1 MNIST - Hello World
 
 Training MNIST with Dropout is the **Hello World** in deep learning.
 
@@ -42,7 +42,7 @@ Training MNIST with Dropout is the **Hello World** in deep learning.
 
 - [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *DropoutLayer* and *is_train* to switch training and testing.
 
-#### 1.2 CIFAR10 - Data Augmentation 
+### 1.2 CIFAR10 - Data Augmentation 
 
 In deep learning, data augmentation is a key fator to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
 
@@ -52,7 +52,7 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - [TF DatasetAPI - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_datasetapi.py).
 
-#### 1.3 Connect with other TF wrappers
+### 1.3 Connect with other TF wrappers
 
 - [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
 
@@ -60,7 +60,7 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
-#### 1.4 More Datasets and TFRecord Examples
+### 1.4 More Datasets and TFRecord Examples
 
 - [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
@@ -74,7 +74,7 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 ## 2. Computer Vision
 
-#### 2.1 Computer Vision Applications
+### 2.1 Computer Vision Applications
 
 - Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization, see [here](https://github.com/tensorlayer/adaptive-style-transfer)
 
@@ -100,15 +100,15 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - More Computer Vision Application can be found in Adversarial Learning Section
 
-#### 2.2 Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
+### 2.2 Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
 
-#### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
+### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
-###### FP8 (float8) and FP16 (float16)
+#### FP8 (float8) and FP16 (float16)
 
 - [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_float16.py) on the MNIST dataset.
 
-###### Quantization Networks
+#### Quantization Networks
 
 See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
 
@@ -122,50 +122,50 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 3. Natural Language Processing
 
-#### 3.1 ChatBot
+### 3.1 ChatBot
  
 - [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
 
-#### 3.2 Text Generation
+### 3.2 Text Generation
 
 - [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
 
 - Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
-#### 3.3 Text Classification
+### 3.3 Text Classification
 
 - [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
 
-#### 3.4 Word Embedding
+### 3.4 Word Embedding
 
 - [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
 
-#### 3.5 Spam Detection
+### 3.5 Spam Detection
 
 - [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
 
 
 ## 4. Reinforcement Learning
 
-#### 4.1 Actor Critic
+### 4.1 Actor Critic
 
 - [Asynchronous Advantage Actor Critic (A3C)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_bipedalwalker_a3c_continuous_action.py) with Continuous Action Space based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-3-A3C/).
 
 - [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
 
-#### 4.2 Policy Network
+### 4.2 Policy Network
 
 - [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
 
-#### 4.3 Q-Learning
+### 4.3 Q-Learning
 
 - [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
 
-#### 4.4 Imitation Learning
+### 4.4 Imitation Learning
 
  - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
 
-#### 4.5 RL Toolbox
+### 4.5 RL Toolbox
  
  - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains TRPO, A3C for ontinous action space by [jjkke88](https://github.com/jjkke88).
 
@@ -193,7 +193,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 7. Auto Encoders
 
-#### Variational Autoencoder (VAE)
+### Variational Autoencoder (VAE)
 
 - [Variational Autoencoder](https://github.com/yzwxx/vae-celebA) trained on the CelebA dataset.
 
