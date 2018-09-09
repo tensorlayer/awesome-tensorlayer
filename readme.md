@@ -52,21 +52,13 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - [TF DatasetAPI - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_datasetapi.py).
 
-### 1.3 Connect with other TF wrappers
-
-- [Using Keras Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
-
-- [Using TF-Slim Layers with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
-
-- [Using TF-Slim Networks with Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
-
-### 1.4 Distributed Training
+### 1.3 Distributed Training
 
 Our distributed training is powered by [Uber Horovod](https://github.com/uber/horovod), to the best of our knowledge, it is the best solution for TensorFlow.
 
 - Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily.
 
-### 1.5 More Datasets and TFRecord Examples
+### 1.4 More Datasets and TFRecord Examples
 
 - [Downloading and Preprocessing PASCAL VOC using TensorFlow Dataset API](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
@@ -77,6 +69,14 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 - [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
 
 - More dataset loader can be found in [tl.files.load_xxx](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
+
+### 1.5 Connect with other TF wrappers
+
+- [Connect with Keras](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
+
+- [Connect with TF-Slim](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
+
+- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
 
 ## 2. Computer Vision
 
