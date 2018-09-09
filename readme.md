@@ -100,7 +100,9 @@ In deep learning, data augmentation is a key fator to improve the performance. W
 
 - More Computer Vision Application can be found in Adversarial Learning Section
 
-### 2.2 Pretrained models for ImageNet Classification such as VGG16, VGG19, MobileNet, SqueezeNet, Inception can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
+### 2.2 Pretrained Image Classification Models 
+
+- VGG16, VGG19, MobileNet, SqueezeNet, Inception and etc can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
 
 ### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
@@ -188,8 +190,8 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 6. Pretrained Models
 
-- All pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
-- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples.
+- All official pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
+- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples to use [tl.models](https://tensorlayer.readthedocs.io/en/stable/modules/models.html).
 
 ## 7. Auto Encoders
 
