@@ -77,7 +77,8 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Connect with TF-Slim](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
 
-- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://arxiv.org/abs/1512.00567).
+- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://
+- arxiv.org/abs/1512.00567).
 
 ## 2. Computer Vision
 
@@ -85,35 +86,19 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
 
-- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/openpose)
+- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/fast-openpose)
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
 - [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
 
-- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) on bird and flower dataset.
-
-- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
-
-- [Improved CycleGAN using Resize-Convolution](https://github.com/luoxier/CycleGAN_Tensorlayer).
-
 - [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
 
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
 
-- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
-
-- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
-
-- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
-
 - More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
-### 2.2 Pretrained Image Classification Models 
-
-- VGG16, VGG19, MobileNet, SqueezeNet, Inception and etc can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
-
-### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
+### 2.2 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
 #### FP8 (float8) and FP16 (float16)
 
@@ -129,7 +114,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [DoReFa-Net](https://arxiv.org/abs/1606.06160) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py).
 
-- [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
+- [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
 #### Our TensorRT Toolbox for production is coming soon
 
@@ -185,24 +170,27 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 5. Adversarial Learning
 
-- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
-
-- [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
+- [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
 - [CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
 
 - [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
 
+- [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
+
 - [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
 
-- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
+- [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
 
-- [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
+- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/abs/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
 
 ## 6. Pretrained Models
 
 - All official pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
-- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) provides useful examples to use [tl.models](https://tensorlayer.readthedocs.io/en/stable/modules/models.html).
+
+- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks#8-using-tlmodels) provides useful examples to use [tl.models](https://tensorlayer.readthedocs.io/en/stable/modules/models.html).
+
+- [TensorLayer Model Zoo](https://github.com/DEKHTIARJonathan/TensorFlow-TensorLayer-Zoo) - Mostly convnets at the moment, usefull for perceptual metrics or transfer learning. 
 
 ## 7. Auto Encoders
 
