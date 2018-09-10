@@ -105,7 +105,7 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
 
-- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/pdf/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
+- [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/abs/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
 
 - More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
