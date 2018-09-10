@@ -85,7 +85,7 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
 
-- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/openpose)
+- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/tensorlayer/fast-openpose)
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
