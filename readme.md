@@ -86,27 +86,19 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
 
-- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/tensorlayer/fast-openpose)
+- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/fast-openpose)
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
 - [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
 
-- [Generative Adversarial Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) on bird and flower dataset.
-
 - [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
 
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
 
-- [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
-
 - More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
-### 2.2 Pretrained Image Classification Models 
-
-- VGG16, VGG19, MobileNet, SqueezeNet, Inception and etc can be found in [tensorlayer/pretrained-models](https://github.com/tensorlayer/pretrained-models) and [examples/pretrained_cnn](https://github.com/tensorlayer/tensorlayer/tree/master/examples/pretrained_cnn)
-
-### 2.3 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
+### 2.2 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
 #### FP8 (float8) and FP16 (float16)
 
