@@ -77,8 +77,7 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Connect with TF-Slim](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
 
-- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [[C. Szegedy et al, 2015]](https://
-- arxiv.org/abs/1512.00567).
+- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [C. Szegedy et al, 2015](https://arxiv.org/abs/1512.00567).
 
 ## 2. Computer Vision
 
