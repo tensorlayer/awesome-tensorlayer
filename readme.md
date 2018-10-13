@@ -43,7 +43,7 @@ Training MNIST with Dropout is the **Hello World** in deep learning.
 
 - [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *DropoutLayer* and *is_train* to switch training and testing.
 
-### 1.2 CIFAR10 - Data Augmentation 
+### 1.2 CIFAR10 - Data Augmentation
 
 In deep learning, data augmentation is a key fator to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
 
@@ -85,7 +85,7 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
 
-- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/fast-openpose)
+- [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/openpose-plus)
 
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
 
@@ -109,7 +109,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Binary Networks](https://arxiv.org/abs/1602.02830) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_mnist_cnn.py) and  [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_cifar10_tfrecord.py).
 
-- [Ternary Network](https://arxiv.org/abs/1605.04711) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py). 
+- [Ternary Network](https://arxiv.org/abs/1605.04711) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py).
 
 - [DoReFa-Net](https://arxiv.org/abs/1606.06160) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py).
 
@@ -120,7 +120,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 ## 3. Natural Language Processing
 
 ### 3.1 ChatBot
- 
+
 - [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
 
 ### 3.2 Text Generation
@@ -163,7 +163,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
  - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
 
 ### 4.5 RL Toolbox
- 
+
  - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains TRPO, A3C for ontinous action space by [jjkke88](https://github.com/jjkke88).
 
 
@@ -173,7 +173,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [CycleGAN](https://github.com/luoxier/CycleGAN_Tensorlayer) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
 
-- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879). 
+- [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879).
 
 - [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
 
@@ -189,7 +189,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks#8-using-tlmodels) provides useful examples to use [tl.models](https://tensorlayer.readthedocs.io/en/stable/modules/models.html).
 
-- [TensorLayer Model Zoo](https://github.com/DEKHTIARJonathan/TensorFlow-TensorLayer-Zoo) - Mostly convnets at the moment, usefull for perceptual metrics or transfer learning. 
+- [TensorLayer Model Zoo](https://github.com/DEKHTIARJonathan/TensorFlow-TensorLayer-Zoo) - Mostly convnets at the moment, usefull for perceptual metrics or transfer learning.
 
 ## 7. Auto Encoders
 
@@ -226,4 +226,3 @@ If you find this project useful, we would be grateful if you cite the TensorLaye
 
 
 # **ENJOY**
-
