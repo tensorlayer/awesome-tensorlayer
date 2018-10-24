@@ -45,7 +45,7 @@ Training MNIST with Dropout is the **Hello World** in deep learning.
 
 ### 1.2 CIFAR10 - Data Augmentation
 
-In deep learning, data augmentation is a key fator to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
+In deep learning, data augmentation is a key factor to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
 
 - [Placeholder - Slow](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_placeholder.py).
 
