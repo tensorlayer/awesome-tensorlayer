@@ -33,33 +33,21 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## 1. Basics Examples
 
-Get start with TensorLayer.
+### 1.1 MNIST and CIFAR10 
 
-### 1.1 MNIST - Hello World
+TensorLayer has two types of models.
+Static model allows you to build model in a fluent way while dynamic model allows you to fully control the forward process.
+Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_start_model.html#) before you start.
 
-Training MNIST with Dropout is the **Hello World** in deep learning.
+- [MNIST Simplest Example](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_simple.py)
+- [MNIST Static Example](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_mlp_static.py)
+- [MNIST Static Example for Reused Model](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_mlp_static_2.py)
+- [MNIST Dynamic Example](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_mlp_dynamic.py)
+- [MNIST Dynamic Example for Seperated Models](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_mlp_dynamic_2.py)
+- [MNIST Static Siamese Model Example](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_siamese.py)
+- [CIFAR10 Static Example with Data Augmentation](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_cnn_static.py)
 
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout1.py) - Method 1 using *DropoutLayer* and *network.all_drop* to switch training and testing.
-
-- [Using Dropout in Tensorlayer](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mlp_dropout2.py) - Method 2 using *DropoutLayer* and *is_train* to switch training and testing.
-
-### 1.2 CIFAR10 - Data Augmentation
-
-In deep learning, data augmentation is a key factor to improve the performance. While, a complex data augmentation method and large dataset will slow down the training, therefore, TensorFlow provides TFRecord and DatasetAPI for fast data processing, see [TensorFlow-Importing Data](https://www.tensorflow.org/guide/datasets) for more information.
-
-- [Placeholder - Slow](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_placeholder.py).
-
-- [TFRecord - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_tfrecord.py).
-
-- [TF DatasetAPI - Fast](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_cifar10_datasetapi.py).
-
-### 1.3 Distributed Training
-
-Our distributed training is powered by [Uber Horovod](https://github.com/uber/horovod), to the best of our knowledge, it is the best solution for TensorFlow.
-
-- Our small examples [here](https://github.com/tensorlayer/tensorlayer/tree/master/examples/distributed_training) can help you to understand and test our API easily. Note that, due to the small data size, using more GPUs could not have performance gain, these examples just show you how to use the API.
-
-### 1.4 More DatasetAPI and TFRecord Examples
+### 1.2 DatasetAPI and TFRecord Examples
 
 - [Downloading and Preprocessing PASCAL VOC](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
 
@@ -70,14 +58,6 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 - [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
 
 - More dataset loader can be found in [tl.files.load_xxx](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
-
-### 1.5 Connect with other TF wrappers
-
-- [Connect with Keras](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_keras.py).
-
-- [Connect with TF-Slim](https://github.com/tensorlayer/tensorlayer/blob/master/examples/keras_tfslim/tutorial_tfslim.py).
-
-- [Connect with TF-Slim Networks](https://github.com/tensorlayer/tensorlayer/blob/master/examples/pretrained_cnn/tutorial_inceptionV3_tfslim.py) an example with the CNN InceptionV3 by [C. Szegedy et al, 2015](https://arxiv.org/abs/1512.00567).
 
 ## 2. Computer Vision
 
@@ -99,10 +79,6 @@ Our distributed training is powered by [Uber Horovod](https://github.com/uber/ho
 
 ### 2.2 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
 
-#### FP8 (float8) and FP16 (float16)
-
-- [Convolutional Network using FP16 (float16)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/basic_tutorials/tutorial_mnist_float16.py) on the MNIST dataset.
-
 #### Quantization Networks
 
 See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
@@ -115,7 +91,6 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 - [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
-#### Our TensorRT Toolbox for production is coming soon
 
 ## 3. Natural Language Processing
 
@@ -144,28 +119,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 4. Reinforcement Learning
 
-### 4.1 Actor Critic
-
-- [Asynchronous Advantage Actor Critic (A3C)](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_bipedalwalker_a3c_continuous_action.py) with Continuous Action Space based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-3-A3C/).
-
-- [Actor-Critic using TD-error](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_cartpole_ac.py) as the Advantage, Reinforcement Learning based on this [blog post](https://morvanzhou.github.io/tutorials/machine-learning/reinforcement-learning/6-1-actor-critic/).
-
-### 4.2 Policy Network
-
-- [Deep Policy Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_atari_pong.py) - Code working with Pong Game on ATARI - Related [blog post](http://karpathy.github.io/2016/05/31/rl/) from Andrej Karpathy.
-
-### 4.3 Q-Learning
-
-- [Deep Q Network](https://github.com/tensorlayer/tensorlayer/blob/master/examples/reinforcement_learning/tutorial_frozenlake_dqn.py) with Tables and Neural Networks on the FrozenLake OpenAI Gym - Related [blog post](https://medium.com/emergent-future/simple-reinforcement-learning-with-tensorflow-part-0-q-learning-with-tables-and-neural-networks-d195264329d0).
-
-### 4.4 Imitation Learning
-
- - [DAGGER](https://www.cs.cmu.edu/%7Esross1/publications/Ross-AIStats11-NoRegret.pdf) for ([Gym Torcs](https://github.com/ugo-nama-kun/gym_torcs)) by [zsdonghao](https://github.com/zsdonghao/Imitation-Learning-Dagger-Torcs).
-
-### 4.5 RL Toolbox
-
- - [RL Toolbox](https://github.com/jjkke88/RL_toolbox) is a reinfore learning tool box, contains TRPO, A3C for ontinous action space by [jjkke88](https://github.com/jjkke88).
-
+- [DRL Model Zoo](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
 
 ## 5. Adversarial Learning
 
@@ -186,11 +140,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 6. Pretrained Models
 
-- All official pretrained models can be found [here](https://github.com/tensorlayer/pretrained-models).
-
-- [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks#8-using-tlmodels) provides useful examples to use [tl.models](https://tensorlayer.readthedocs.io/en/stable/modules/models.html).
-
-- [TensorLayer Model Zoo](https://github.com/DEKHTIARJonathan/TensorFlow-TensorLayer-Zoo) - Mostly convnets at the moment, usefull for perceptual metrics or transfer learning.
+- The guideline of using pretrained models is [here](https://tensorlayer.readthedocs.io/en/latest/user/get_start_advance.html#pre-trained-cnn).
 
 ## 7. Auto Encoders
 
