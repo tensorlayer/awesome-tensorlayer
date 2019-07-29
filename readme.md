@@ -50,13 +50,9 @@ Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_st
 ### 1.2 DatasetAPI and TFRecord Examples
 
 - [Downloading and Preprocessing PASCAL VOC](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tf_dataset_voc.py) with TensorLayer VOC data loader. [知乎文章](https://zhuanlan.zhihu.com/p/31466173)
-
 - [Read and Save data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord.py).
-
 - [Read and Save time-series data in TFRecord Format](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord3.py).
-
 - [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
-
 - More dataset loader can be found in [tl.files.load_xxx](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
 ## 2. Computer Vision
@@ -64,17 +60,11 @@ Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_st
 ### 2.1 Computer Vision Applications
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
-
 - [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/openpose-plus)
-
 - [InsignFace](https://github.com/auroua/InsightFace_TF) - Additive Angular Margin Loss for Deep Face Recognition
-
 - [Spatial-Transformer-Nets (STN)](https://github.com/zsdonghao/Spatial-Transformer-Nets) trained on MNIST dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1506.02025).
-
 - [U-Net Brain Tumor Segmentation](https://github.com/zsdonghao/u-net-brain-tumor) trained on BRATS 2017 dataset based on the paper by [[M. Jaderberg et al, 2015]](https://arxiv.org/abs/1705.03820) with some modifications.
-
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
-
 - More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
 ### 2.2 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
@@ -84,11 +74,8 @@ Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_st
 See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
 
 - [Binary Networks](https://arxiv.org/abs/1602.02830) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_mnist_cnn.py) and  [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_binarynet_cifar10_tfrecord.py).
-
 - [Ternary Network](https://arxiv.org/abs/1605.04711) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_ternaryweight_cifar10_tfrecord.py).
-
 - [DoReFa-Net](https://arxiv.org/abs/1606.06160) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py).
-
 - [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
 
@@ -101,7 +88,6 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 ### 3.2 Text Generation
 
 - [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
-
 - Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
 
 ### 3.3 Text Classification
@@ -124,17 +110,11 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 ## 5. Adversarial Learning
 
 - [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
-
 - [CycleGAN](https://github.com/tensorlayer/cyclegan) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
-
 - [SRGAN](https://github.com/tensorlayer/srgan) - A Super Resolution GAN based on the paper by [[C. Ledig et al, 2016]](https://arxiv.org/abs/1609.04802).
-
 - [DAGAN](https://github.com/nebulaV/DAGAN): Fast Compressed Sensing MRI Reconstruction based on the paper by [[G. Yang et al, 2017]](https://doi.org/10.1109/TMI.2017.2785879).
-
 - [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
-
 - [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/abs/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
-
 - [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
 
 
@@ -147,18 +127,14 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 ### Variational Autoencoder (VAE)
 
 - [Variational Autoencoder](https://github.com/yzwxx/vae-celebA) trained on the CelebA dataset.
-
 - [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
 
 
 ## 8. Data and Model Managment Tools
 
 - [Why Database?](https://tensorlayer.readthedocs.io/en/stable/modules/db.html).
-
 - Put Tasks into Database and Execute on Other Agents, see [code](https://github.com/tensorlayer/tensorlayer/tree/master/examples/database).
-
 - TensorDB applied on Pong Game on OpenAI Gym: [Trainer File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_trainer.py) and [Generator File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_atari_pong_generator.py) based on the following [blog post](http://karpathy.github.io/2016/05/31/rl/).
-
 - TensorDB applied to classification task on MNIST dataset: [Master File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_master.py) and [Worker File](https://github.com/akaraspt/tl_paper/blob/master/tutorial_tensordb_cv_mnist_worker.py).
 
 
