@@ -17,7 +17,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ## Contents
 
-- [Tips and Tricks](#tips-and-tricks)
 - [1. Basics Examples](#1-basics-examples)
 - [2. Computer Vision](#2-computer-vision)
 - [3. Natural Language Processing](#3-natural-language-processing)
@@ -27,9 +26,6 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [7. Auto Encoders](#7-auto-encoders)
 - [8. Data and Model Managment Tools](#8-data-and-model-managment-tools)
 
-## Tips and Tricks
-
- - [Tricks to use TensorLayer](https://github.com/wagamamaz/tensorlayer-tricks) is a third party repository to collect tricks to use TensorLayer better.
 
 ## 1. Basics Examples
 
@@ -105,7 +101,8 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 
 ## 4. Reinforcement Learning
 
-- [DRL Model Zoo](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
+- [DRL Tutorial for Academic](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
+- [DRL Zoo for Industry](https://github.com/tensorlayer/RLzoo)
 
 ## 5. Adversarial Learning
 
