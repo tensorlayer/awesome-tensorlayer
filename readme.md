@@ -104,7 +104,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [DRL Tutorial for Academic](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
 - [DRL Zoo for Industry](https://github.com/tensorlayer/RLzoo)
 
-## 5. Adversarial Learning
+## 5. GAN
 
 - [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
 - [CycleGAN](https://github.com/tensorlayer/cyclegan) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
@@ -113,7 +113,11 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [GAN-CLS for Text to Image Synthesis](https://github.com/zsdonghao/text-to-image) based on the paper by [[S. Reed et al, 2016]](https://arxiv.org/abs/1605.05396)
 - [Unsupervised Image-to-Image Translation with Generative Adversarial Networks](https://arxiv.org/abs/1701.02676), [code](https://github.com/zsdonghao/Unsup-Im2Im)
 - [BEGAN](https://github.com/2wins/BEGAN-tensorlayer): Boundary Equilibrium Generative Adversarial Networks based on the paper by [[D. Berthelot et al, 2017]](https://arxiv.org/abs/1703.10717).
-
+- [BiGAN](https://github.com/YOUSIKI/BiGAN.TensorLayer) Adversarial Feature Learning
+- [Attention CycleGAN](https://github.com/Hermera/Unsupervised-Attention-guidedImage-to-Image-Translation): Unsupervised Attention-guided Image-to-Image Translation
+- [MoCoGAN](https://github.com/Zyl-000/Project_MoCoGAN) Decomposing Motion and Content for Video Generation
+- [InfoGAN](https://github.com/lisc55/InfoGAN): Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, 2016
+- [Lifelong GAN](https://github.com/ChillingDream/Lifelong-Gan): Continual Learning for Conditional Image Generation, 2019, ICCV
 
 ## 6. Pretrained Models
 
