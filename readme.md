@@ -15,8 +15,8 @@ You have just found TensorLayer! High performance DL and RL library for industry
 
 Contributions welcome! Read the [contribution guidelines](contributing.md) first.
 
+<!---
 ## Contents
-
 - [1. Basics Examples](#1-basics-examples)
 - [2. Computer Vision](#2-computer-vision)
 - [3. Natural Language Processing](#3-natural-language-processing)
@@ -25,7 +25,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 - [6. Pretrained Models](#6-pretrained-models)
 - [7. Auto Encoders](#7-auto-encoders)
 - [8. Data and Model Managment Tools](#8-data-and-model-managment-tools)
-
+-->
 
 ## 1. Basics Examples
 
