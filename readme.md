@@ -31,7 +31,7 @@ Contributions welcome! Read the [contribution guidelines](contributing.md) first
 
 ### 1.1 MNIST and CIFAR10 
 
-TensorLayer has two types of models.
+TensorLayer can define models in two ways.
 Static model allows you to build model in a fluent way while dynamic model allows you to fully control the forward process.
 Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_start_model.html#) before you start.
 
@@ -51,9 +51,7 @@ Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_st
 - [Convert CIFAR10 in TFRecord Format for performance optimization](https://github.com/tensorlayer/tensorlayer/blob/master/examples/data_process/tutorial_tfrecord2.py).
 - More dataset loader can be found in [tl.files.load_xxx](https://tensorlayer.readthedocs.io/en/latest/modules/files.html#load-dataset-functions)
 
-## 2. Computer Vision
-
-### 2.1 Computer Vision Applications
+## 2. General Computer Vision
 
 - [Arbitrary Style Transfer in Real-time with Adaptive Instance Normalization](https://github.com/tensorlayer/adaptive-style-transfer)
 - [OpenPose: Real-time multi-person keypoint detection](https://github.com/tensorlayer/openpose-plus)
@@ -63,9 +61,7 @@ Please read this [DOCS](https://tensorlayer.readthedocs.io/en/latest/user/get_st
 - [Image2Text: im2txt](https://github.com/zsdonghao/Image-Captioning) based on the paper by [[O. Vinyals et al, 2016]](https://arxiv.org/abs/1609.06647).
 - More Computer Vision Application can be found in [Adversarial Learning Section](#5-adversarial-learning)
 
-### 2.2 CNN and Computational Speed or Memory Footprint Bandwitdh Optimization
-
-#### Quantization Networks
+## 3. Quantization Networks
 
 See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/master/examples/quantized_net).
 
@@ -74,37 +70,7 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [DoReFa-Net](https://arxiv.org/abs/1606.06160) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_mnist_cnn.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_dorefanet_cifar10_tfrecord.py).
 - [Quantization For Efficient Integer-Arithmetic-Only Inference](https://arxiv.org/abs/1712.05877) works on [mnist](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_mnist.py) and [cifar10](https://github.com/tensorlayer/tensorlayer/blob/master/examples/quantized_net/tutorial_quanconv_cifar10.py).
 
-
-## 3. Natural Language Processing
-
-### 3.1 ChatBot
-
-- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
-
-### 3.2 Text Generation
-
-- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
-- Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
-
-### 3.3 Text Classification
-
-- [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
-
-### 3.4 Word Embedding
-
-- [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
-
-### 3.5 Spam Detection
-
-- [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
-
-
-## 4. Reinforcement Learning
-
-- [DRL Tutorial for Academic](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
-- [DRL Zoo for Industry](https://github.com/tensorlayer/RLzoo)
-
-## 5. GAN
+## 4. GAN
 
 - [DCGAN](https://github.com/tensorlayer/dcgan) trained on the CelebA dataset based on the paper by [[A. Radford et al, 2015]](https://arxiv.org/abs/1511.06434).
 - [CycleGAN](https://github.com/tensorlayer/cyclegan) improved with resize-convolution based on the paper by [[J. Zhu et al, 2017]](https://arxiv.org/abs/1703.10593).
@@ -119,19 +85,46 @@ See [examples/quantized_net](https://github.com/tensorlayer/tensorlayer/tree/mas
 - [InfoGAN](https://github.com/lisc55/InfoGAN): Interpretable Representation Learning by Information Maximizing Generative Adversarial Nets, 2016
 - [Lifelong GAN](https://github.com/ChillingDream/Lifelong-Gan): Continual Learning for Conditional Image Generation, 2019, ICCV
 
-## 6. Pretrained Models
+## 5. Natural Language Processing
 
-- The guideline of using pretrained models is [here](https://tensorlayer.readthedocs.io/en/latest/user/get_start_advance.html#pre-trained-cnn).
+### 5.1 ChatBot
 
-## 7. Auto Encoders
+- [Seq2Seq Chatbot](https://github.com/tensorlayer/seq2seq-chatbot)  in 200 lines of code for [Seq2Seq](https://tensorlayer.readthedocs.io/en/latest/modules/layers.html#simple-seq2seq).
 
-### Variational Autoencoder (VAE)
+### 5.2 Text Generation
+
+- [Text Generation with LSTMs](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_generation/tutorial_generate_text.py) - Generating Trump Speech.
+- Modelling PennTreebank [code1](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm.py) and [code2](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_ptb/tutorial_ptb_lstm_state_is_tuple.py), see [blog post](http://karpathy.github.io/2015/05/21/rnn-effectiveness/).
+
+### 5.3 Text Classification
+
+- [FastText Classifier](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_classification/tutorial_imdb_fasttext.py) running on the IMDB dataset based on the paper by [[A. Joulin et al, 2016]](https://arxiv.org/abs/1607.01759).
+
+### 5.4 Word Embedding
+
+- [Minimalistic Implementation of Word2Vec](https://github.com/tensorlayer/tensorlayer/blob/master/examples/text_word_embedding/tutorial_word2vec_basic.py) based on the paper by [[T. Mikolov et al, 2013]](https://arxiv.org/abs/1310.4546).
+
+### 5.5 Spam Detection
+
+- [Chinese Spam Detector](https://github.com/pakrchen/text-antispam).
+
+## 6. Reinforcement Learning
+
+- [DRL Tutorial for Academic](https://github.com/tensorlayer/tensorlayer/tree/master/examples/reinforcement_learning)
+- [DRL Zoo for Industry](https://github.com/tensorlayer/RLzoo)
+
+
+## 7. (Variational) Autoencoders
 
 - [Variational Autoencoder](https://github.com/yzwxx/vae-celebA) trained on the CelebA dataset.
 - [Variational Autoencoder](https://github.com/BUPTLdy/tl-vae) trained on the MNIST dataset.
 
 
-## 8. Data and Model Managment Tools
+## 8. Pretrained Models
+
+- The guideline of using pretrained models is [here](https://tensorlayer.readthedocs.io/en/latest/user/get_start_advance.html#pre-trained-cnn).
+
+## 9. Data and Model Managment Tools
 
 - [Why Database?](https://tensorlayer.readthedocs.io/en/stable/modules/db.html).
 - Put Tasks into Database and Execute on Other Agents, see [code](https://github.com/tensorlayer/tensorlayer/tree/master/examples/database).
